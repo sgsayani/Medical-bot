@@ -1,0 +1,94 @@
+{"intents":[
+	{"tag":"greetings",
+	"patterns":["hey","good day","Hello","Hi"],
+	"responses":["Hello","Hey","What can I do for you?","How can I help you ?"]
+	},
+	{"tag":"goodbye",
+	"patterns":["see you","Thank you "],
+	"responses":["sad to bye ","bye","Your most welcome","Thank you"]
+	},
+	{"tag":"Help",
+	"patterns":["Need your help","Can you please help me","Urgent help is needed","I want your help"],
+	"responses":["Yes sure I will help you","What's your problem?","Don't worry I will help you","Tell me how can I help you?"]
+	},
+	{"tag":"Covid",
+	"patterns":["What is covid 19 disease?","What is coronavirus?","Is coronavirus contagious?","What is a novel coronavirus?","Can coronaviruses be transmitted from person to person?","Is there a vaccine for a novel coronavirus?","What is covid virus","Is covid-19 infectious?"],
+	"responses":["Coronaviruses or covid 19 disease are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).","A novel coronavirus (CoV) is a new strain of coronavirus that has not been previously identified in humans.","COVID-19 is a disease caused by a new strain of coronavirus. 'CO' stands for corona 'VI' for virus and 'D' for disease. Formerly this disease was referred to as '2019 novel coronavirus' or '2019-nCoV.'"]
+	},
+	{"tag":"symptoms",
+	"patterns":["What are the general symptoms of Covid 19 ?","Which mild symptoms occur first ?","How to know if I am infected ?","What are the acute symptoms of Covid 19 ?","Will I have breathing problem if I'm infected ?"," What discomforts happen after infection ?","What other symptoms might occur ?","Why should I be at risk ?","What sypmtoms show that a person can be Covid infected ?","What are the less common symptoms ?"],
+	"responses":["Three common clusters of symptoms have been identified one respiratory symptom cluster with  cough sputum  shortness of breath and fever a musculoskeletal symptom \n 1.cluster with muscle\n 2. joint pain headache\n 3. fatigue a cluster of digestive symptoms with abdominal  pain  vomiting and  diarrhea.","Most common symptoms are  fever  dry cough  tiredness Less common symptoms are \n 1.aches \n 2. pains  \n 3.sore throat \n  4.diarrhoea \n  5.conjunctivitis  headache  loss of taste or smell  a rash on skin  Serious symptoms are \n 1. difficulty breathing or shortness of breath \n 2.chest pain or pressure \n 3.loss of speech and movement.","once a person has connected with coronavirus it can take 2 or 14 days  for symptoms to appear.The average incubation period appears to be roughly 5 to 6 days.According to the World Health Organization (WHO) symptopms of corona virus can be mild and come on gradually .According to The Lancet when hospital admission is necessary this typically occurs from 7 days onwards.The Centers for Disease Control and Prevention (CDC)Trusted Source state that a person with COVID-19 can experience a wide range of symptoms often including a dry cough and shortness of breath.","Emergency symptoms Symptoms that should prompt an immediate visit to the emergency room (ER) include\n 1. difficulty breathing\n 2. persistent chest pain or pressure in the chest\n 3. confusion\n 4. difficulty waking up or staying awake\n  5. cyanosis which causes blue lips or a blue face."]
+	},
+	{"tag":"Helpline",
+	"patterns":["From where I can find oxygen?","oxygen cylinder","Need oxygen cylinder"],
+	"responses":["1.Barasat Oxygen lead-9830433456.\n 2.Duttapukur Oxygen lead-8478923192/9051359979/9875685224/8981014587/7278746729/907373114.\n 3.Naihati to Kalyani-8240250270/7003687793.\n 4.Covid Help Desk(For information on Oxygen leads /Food delivery leads Government/ Hospital Bed registration-7477674503/8902731394/906419679.\n 5.Madhyamgram-8777027437.Goverment Oxygen control room-7596056444/7596056443.\n 6.khardah(bengal gases-21/19-b.t road Khardah)-9838788578.\n 7.Bharat oxytech pvt ltd 23-b.t road Kamarhati ph-03325632488.\n 8.Team saath(Saltlake(oxygen refill))-9830179101.\n 9.Oxygen Services(Tollygunge Phari-(6lts.&12 lts cans available))-9831919933."]
+	},
+	{"tag":"Treatment",
+	"patterns":["Can any existing treatment cure Covid 19 ?","Is there full treatment for Covid 19?","Treatment","How to treat Covid 19 ?","How long does Covid treatment take place?","Why should I need emergency Covid treatment?","What I will do when I will be affected  from covid 19 or corona virus?"],
+    "responses":["At home Coronavirus Treatment-\n 1.Take rest that can make you feel better and may speed your recovery.\n 2.Stay home Do not go to work school or public places.\n 3.You lose more water when you are sick.Dehydration can make symptoms worse and cause other health problems.\n 4.Monitor If your symptoms get worse call your doctor right away.Do not go to their office without calling first.They might tell you to stay home or they may need to take extra steps to protect staff and other patients.\n 5.Ask your doctor about over the counter medicines that may help like acetaminophen to lower your fever.\n 6.Try to stay in one place in your home Use a separate bedroom and bathroom if you can.\n 7.Tell others you are sick so they keep their distance.\n8.Cover your coughs and sneezes with a tissue or your elbow."]
+	},
+	{"tag":"medicine",
+	"patterns":["What medicine should I take ?","Which medicine can treat covid 19 or corona virus?"],
+	"responses":["Two drugs can help manage COVID-19 in some people with severe symptoms who are receiving treatment in the hospital  according to the National Institutes of Health. They are: Veklury (remdesivir): Veklury (remdesivir) is an antiviral drug that may slow the replication of the virus in the body.According to the FDATrusted Source studies have shown that using Veklury could speed up the recovery time from COVID-19. The median recovery time was 10 days for people taking Veklury compared with 15 days for those in the placebo group. Dexamethasone: Corticosteroids such as dexamethasone may help manage symptoms in people with COVID-19 by reducing inflammation. They also may reduce the risk of death in some people with severe symptoms.A doctor may prescribe both steroids and antivirals in some cases.As scientists continue to research the disease and potential treatments more drugs may receive government approval Trusted Source. First however clinical trials must show that they are safe and effective."]
+	},
+	{"tag":"Test",
+	"patterns":["What kind of test we need ?","Test for corona","Covid test","Diagnosis","Diagnosis and tests","Which kind of test we want when someone will be effected from Corona or Covid-19?","Testing for covid-19"],
+	"responses":["COVID-19 tests are available that can test for current infection or past infection.\n * A viral test tells you have a current infection. Two types of viral tests can be used: nucleic acid amplification tests (NAATs) and antigen tests.\n * An antibody test (also known as a serology test) might tell you if you had a past infection. Antibody tests should not be used to diagnose a current infection."]
+	},
+	{"tag":"Current infection",
+	"patterns":["Who should get tested for current infection?","current infection","Who will test for current infection of Covid-19"],
+	"responses":["1. People who have symptoms(Fever or chills,Cough,Shortness of breath or difficulty breathing,Fatigue,Muscle or body aches,Headache,Sore throat,Congestion or runny nose,Nausea or vomiting,Diarrhea...) of Covid-19.\n 2. Unvaccinated people who have taken part in activities that put them at higher risk for COVID-19 because they cannot physically distance as needed to avoid exposure , such as travel,attending large social or mass gatherings, or being in crowded or poorly-ventilated indoor settings."]
+	},
+	{"tag":"RT PCR Test",
+	"patterns":["Why take Covid 19 RT PCR Test in Kolkata?","Why we will apply for RT PCR Test?","What is RT PCR Test?","RT PCR"],
+	"responses":["If someone have symptoms of COVID-19  they can apply for RT PCR test.\n 1. It is the most reliable and accurate test for detecting active infection in the body.\n 2. This test detects the presence of the actual virus’s genetic material.\n 3.The real time RT–PCR technique is highly sensitive and specific and can deliver a reliable diagnosis in as little as three hours though laboratories take on average between six and eight hours.\n 4. You will know if you are COVID positive so you can take timely action to self-isolate and get the right treatment."]
+	},
+	{"tag":"Methods",
+	"patterns":["What kind of method is used for Covid 19 or corona test?","Methods of Test for covid"],
+	"responses":["1. Testing Method : Real-time reverse transcription polymerase chain reaction (RT-PCR) gene detection method is used for COVID test.\n 2. Specimen collection: Nasal swab and Throat swab."]
+	},
+	{"tag":"Past Infection",
+	"patterns":["What is Past infection for Covid 19","Past Infection"],
+	"responses":[" 1. Antibodies are proteins created by your immune system that help you fight off infections. They are made after you have been infected or have been vaccinated against an infection.\n 2. Antibodies can protect you from getting those infections for some period of time afterward. How long this protection lasts is different for each disease and each person."]
+	},
+	{"tag":"Effect of Vaccination",
+	"patterns":["What is the effect of vaccination?","What is the effect of vaccination for covid 19 or corona virus"],
+	"responses":["1. COVID-19 vaccines teach your body to produce antibodies to fight infection from the virus that causes COVID-19. If you get an antibody test after receiving a vaccine you  might test positive by some (but not all) antibody tests. This depends on which type of antibody the specific test detects.\n 2. Antibody testing is not currently recommended to determine if you are immune to Covid 19 following Covid 19 vaccination.Antibody testing should also nit be used to decide if someone needs to be vaccinated."]
+	},
+	{"tag":"Side effects",
+	"patterns":["Side effects of Covid-19 vaccine","What kind of side effect will happen for vaccination?","What is the side effect of vaccination?"],
+	"responses":["COVID-19 vaccines are safe and getting vaccinated will help protect you against developing severe COVID-19 disease and dying from COVID-19. You may experience some mild side effects after getting vaccinated which are signs that your body is building protection.\n * Common Side Effects :\n  Typical side effects include pain at the injection site\n fever\n fatigue\n headache\n muscle pain\n chills and diarrhoea.\n *Less common side effects : Upon receiving the vaccine a person should be requested to stay for 15–30 minutes at the vaccination site so health workers are available in case of any immediate reactions. Less common side effects reported for some COVID-19 vaccines have included severe allergic reactions such as anaphylaxis."]
+	},
+	{"tag":"Ambulance",
+	"patterns":["Ambulance","Quick Ambulance phone number","Please show me Ambulances phone number"],
+	"responses":["1.DIP I C U Ambulance Service-7980651603(All over Bengal.( Covid and Non-Covid Both))\n 2.ICU Ambulance C & D critical care Ambulance service-9874270041(Sodpur\nBarrackpur\nBarasat (Covid and Non-Covid Both))\n 3.Maa Tara Ambulance Service-9874270041(North 24 pargana)\n 4.Uttam Ambulance Service-9163424353(Kartikpur)\n 5.Prodip Ray- 7003161306(New Barrackpur\n Madhyamgram\n Barasat\n Duttapukur(covid and non covid))\n 5. Bhajan Mama-8116141991(Ashoknagar\n All over Kolkata(covid-NonCovid)"]
+	},
+	{"tag":"Doctors",
+	"patterns":["Please show me the doctors phone number.","Doctors Phone number","Doctors phone number for covid 19 treatment"],
+	"responses":["For telephonic guidance on COVID-19 from 8 am to 12 noon: \n Dr Tushar Shah-9321469911 \n Dr M Bhatt-9320407074\n Dr D Doshi-9820237951\n Dr D Rathod-8879148679 \n For telephonic guidance on Covid-19 from 12 to 4 pm:\n Dr G Kamath-9136575405 \n Dr N Shah.9821140656 \n Dr S Phanse-8779328220 \n Dr L Bhagat-9820732570 \n For telephonic guidance on Covid-19 from 4 to 8 pm : \n Dr M Kotian-8928650290 \n Dr L Kedia-9321470560 \n Dr B Shukla-9321489060 \n Dr S Ansari-7045720278 \n For telephonic guidance on Covid-19 from 8 to 11 pm :\n Dr N Kumar-8104605550 \n Dr R Chauhan-9892135010 \n Dr S Pandit-9422473277"]
+	},
+	{"tag":"Vaccine",
+	"patterns":["Where we found vaccine?","From where I will find free vaccine?","Slots for vaccination"],
+	"responses":["Here is the site : https://www.cowin.gov.in/","From here you can find free vaccination slot:https://www.cowin.gov.in/"]
+	},
+	{"tag":"Cases",
+	"patterns":["How many COVID cases happend?","Total COVID cases","Total death in COVID case"],
+	"responses":[ "48415315 confirmed Cases \n 69595 new cases \n 803373 confirmed deaths \n 1083 new deaths"]
+	},
+	{"tag":"precaution",
+	"patterns":["Please tell me about covid or corona virus precaution.","Covid precautions","Say the way to make donot catch the covid disease","How we can protect us from Covid 19 or corona virus?"],
+	"responses":["Here are the way how we can protect us from this disease:\n 1.Try to avoid touching your eyes nose mouth. \n 2. Stay home when you are sick. \n 3.Avoid close contact with people who are sick.\n 4.Cover your cough or sneeze with a tissue then dispose of the tissue safely. \n 5. Keep in mind the travel advisory set out by the Ministry of Health and Welfare. \n 6. Wash your hands with soap and water for at least 20 sec."]
+	},
+	{"tag":"Advice",
+	"patterns":["Give some advice how we can protect ourself?","Suggest some advice to protect our self from covid.","Advice to protect from covid 19"],
+	"responses":["Protect yourself and others from COVID-19: If COVID-19 is spreading in your community stay safe by taking some simple precautions such as 1. physical distancing 2.wearing a mask 3.keeping rooms well ventilated 4.avoiding crowds 5.cleaning your hands 6. coughing into a bent elbow or tissue. Check local advice where you live and work. Do it all!","1.Maintain at least a 1-metre distance between yourself and others to reduce your risk of infection when they cough sneeze or speak.\n2.Make wearing a mask a normal part of being around other people."]
+	},
+	{"tag":"Central Helpline Number for corona virus",
+	"patterns":["Please show me the central helpline number","Which number is for central helpline number for covid?"],
+  "responses":["The central help line number is: +911123978046"]
+	},
+  {"tag":"voice",
+    "patterns":["My voice is not clear"],
+    "responses":["You are not audible","Your voice is not clear","Please write in the chat box."]
+  }
+]}
