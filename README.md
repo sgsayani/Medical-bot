@@ -10,7 +10,7 @@ This project aims to demonstrate how chatbots can be effectively used in the med
 
 # Algorithm :
 Algorithm 1 Pseudocode of the Proposed Chatbot System
-Step 1:
+Step 1:<br>
 Make a json file along with tags, patterns and response. Here, tags will represent the group, patterns represent the question or query format of the user and the response represents how the bot will respond.
 Step2: 
 load json file, intents =json.loads(open(‘intents.json’).read()
