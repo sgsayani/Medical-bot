@@ -8,3 +8,66 @@ This project aims to demonstrate how chatbots can be effectively used in the med
 ![shah20-3227208-large](https://github.com/sgsayani/Medical-bot/assets/71175346/11397b19-d35b-40a2-80ed-250824474f11)
 ![shah13-3227208-large](https://github.com/sgsayani/Medical-bot/assets/71175346/34f4c40b-93bb-4747-a30e-674fe424b11c)
 
+# Algorithm :
+Algorithm 1 Pseudocode of the Proposed Chatbot System
+Step 1:
+Make a json file along with tags, patterns and response. Here, tags will represent the group, patterns represent the question or query format of the user and the response represents how the bot will respond.
+Step2: 
+load json file, intents =json.loads(open(‘intents.json’).read()
+Step3:
+ignore unnecessary letters, ignore_letters= [‘?’,’!’]
+step 4:
+Store each word of patterns and tags, lemmatize them.
+words=[lemmatizer.lemmatize(‘‘word’’) for
+word in words if word is not in ignore_letters]
+Step 5:
+sorts the words for not repeating the same word in model, words=sorted(set(words))
+Step 6:
+open the files in binary mode and make dump file for it,
+pickle.dump(words, open(‘words.pk1’, ’wb’))
+pickle.dump(words, open(‘class.pk1’,’wb’))
+Step7:
+add all words, patterns after lemmatizing, to training
+list training= [], empty list
+word_patterns=[lemmatizer.lemmatize(‘‘word.lower’’()) for
+word in word_patterns], for lemmatizing Loop : word in
+words list -:(will take each element from words list to word)
+bag.append(1) if word in word_patterns or if it is not in
+word_patterns, bag append the value of ‘‘0’’
+output_Row=list of output empty, list(output_empty)
+output_Row of classes.index of documents=1
+training.append(list of bag and output_Row)
+Step 8: 
+shuffle all words in training list, random.shuffle(training)
+step 9:
+store training list one part to train_x and another part to train_y
+train_x=stores list one part,0th index elements, list (:0)
+train_y=stores 1st index elements, list (:1)
+Step 10:
+make neural networking by adding Dense and dropout to model
+model=linear stack of layers
+model.add(Dense of (128 and train_x))
+model. add (Dropout of 0.6)
+sequential () model. Add (Dense of (train_y[0])’s length)
+Step 11:
+compile it and save the model
+Compile (model, for compiling)
+Fit the model, model.fit()
+Save it as.h5 file, save(chatbot_model.h5)
+Step 12:
+after successfully making the training model whenever a user writes the text on the chatbox, the text will be Prediction (message or text)
+step 13:
+give reply to the users
+response = chatbot_response for the message
+chatbot.insert (inserting the ‘‘response’’ to chatbot
+interface)
+Step 14:
+if the user wants to hear it on voice also
+engine = pyttsx.init()
+engine.say(command)
+engine.runAndWait()
+Where the command is the bot’s reply, which is converted into the voice
+step 15:
+this cycle will continue until the users press exit button
+step 16:
+if the user presses the exit button, the application will close
