@@ -4,7 +4,7 @@ This project aims to demonstrate how chatbots can be effectively used in the med
 
 **INDEX TERMS:**  Artificial intelligence, chatbot, LSTM algorithm, machine learning, natural language processing, query processing.
 
-**Screenshot of the project** 
+**Screenshot of the project**<br><br> 
 ![shah20-3227208-large](https://github.com/sgsayani/Medical-bot/assets/71175346/11397b19-d35b-40a2-80ed-250824474f11)
 ![shah13-3227208-large](https://github.com/sgsayani/Medical-bot/assets/71175346/34f4c40b-93bb-4747-a30e-674fe424b11c)
 
