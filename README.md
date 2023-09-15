@@ -47,13 +47,13 @@ training.append(list of bag and output_Row)
 ```
 Step 8: <br>
 shuffle all words in training list, random.shuffle(training)<br>
-step 9:<br><br>
+step 9:<br>
 store training list one part to train_x and another part to train_y<br>
 ```
 train_x=stores list one part,0th index elements, list (:0)
 train_y=stores 1st index elements, list (:1)
 ```
-Step 10:<br><br>
+Step 10:<br>
 make neural networking by adding Dense and dropout to model<br>
 ```
 model=linear stack of layers
