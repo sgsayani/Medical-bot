@@ -12,58 +12,60 @@ This project aims to demonstrate how chatbots can be effectively used in the med
 Algorithm 1 Pseudocode of the Proposed Chatbot System<br>
 Step 1:<br>
 Make a json file along with tags, patterns and response. Here, tags will represent the group, patterns represent the question or query format of the user and the response represents how the bot will respond.<br>
- Step2: <br>
+
+Step2: <br>
 load json file, intents =json.loads(open(‘intents.json’).read()<br>
-#Step3:<br>
+
+Step3:<br>
 ignore unnecessary letters, ignore_letters= [‘?’,’!’]<br>
 step 4:<br>
 Store each word of patterns and tags, lemmatize them.<br>
 ```
-words=[lemmatizer.lemmatize(‘‘word’’) for<br>
-word in words if word is not in ignore_letters]<br>
+words=[lemmatizer.lemmatize(‘‘word’’) for
+word in words if word is not in ignore_letters]
 ```
 Step 5:<br>
 sorts the words for not repeating the same word in model, words=sorted(set(words))<br>
 Step 6:<br>
 open the files in binary mode and make dump file for it,<br>
 ```
-pickle.dump(words, open(‘words.pk1’, ’wb’))<br>
-pickle.dump(words, open(‘class.pk1’,’wb’))<br>
+pickle.dump(words, open(‘words.pk1’, ’wb’))
+pickle.dump(words, open(‘class.pk1’,’wb’))
 ```
 Step7:<br>
 add all words, patterns after lemmatizing, to training<br>
 ```
 list training= [], empty list<br>
-word_patterns=[lemmatizer.lemmatize(‘‘word.lower’’()) for<br>
+word_patterns=[lemmatizer.lemmatize(‘‘word.lower’’()) for
 word in word_patterns], for lemmatizing Loop : word in<br>
-words list -:(will take each element from words list to word)<br>
-bag.append(1) if word in word_patterns or if it is not in<br>
-word_patterns, bag append the value of ‘‘0’’<br>
-output_Row=list of output empty, list(output_empty)<br>
-output_Row of classes.index of documents=1<br>
-training.append(list of bag and output_Row)<br>
+words list -:(will take each element from words list to word)
+bag.append(1) if word in word_patterns or if it is not in
+word_patterns, bag append the value of ‘‘0’’
+output_Row=list of output empty, list(output_empty)
+output_Row of classes.index of documents=1
+training.append(list of bag and output_Row)
 ```
 Step 8: <br>
 shuffle all words in training list, random.shuffle(training)<br>
 step 9:<br><br>
 store training list one part to train_x and another part to train_y<br>
 ```
-train_x=stores list one part,0th index elements, list (:0)<br>
-train_y=stores 1st index elements, list (:1)<br>
+train_x=stores list one part,0th index elements, list (:0)
+train_y=stores 1st index elements, list (:1)
 ```
 Step 10:<br><br>
 make neural networking by adding Dense and dropout to model<br>
 ```
-model=linear stack of layers<br>
-model.add(Dense of (128 and train_x))<br>
+model=linear stack of layers
+model.add(Dense of (128 and train_x))
 model. add (Dropout of 0.6)
-sequential () model. Add (Dense of (train_y[0])’s length)<br>
+sequential () model. Add (Dense of (train_y[0])’s length)
 ```
 Step 11:<br>
 compile it and save the model<br>
 ```
-Compile (model, for compiling)<br>
-Fit the model, model.fit()<br>
+Compile (model, for compiling)
+Fit the model, model.fit()
 ```
 Save it as.h5 file, save(chatbot_model.h5)<br>
 Step 12:<br>
@@ -71,15 +73,15 @@ after successfully making the training model whenever a user writes the text on 
 step 13:<br>
 give reply to the users<br>
 ```
-response = chatbot_response for the message<br>
-chatbot.insert (inserting the ‘‘response’’ to chatbot interface)<br>
+response = chatbot_response for the message
+chatbot.insert (inserting the ‘‘response’’ to chatbot interface)
 ```
 Step 14:<br>
 if the user wants to hear it on voice also<br>
 ```
-engine = pyttsx.init()<br>
-engine.say(command)<br>
-engine.runAndWait()<br>
+engine = pyttsx.init()
+engine.say(command)
+engine.runAndWait()
 ```
 Where the command is the bot’s reply, which is converted into the voice<br>
 step 15:<br>
