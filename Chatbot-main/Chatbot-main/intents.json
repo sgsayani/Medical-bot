@@ -1,0 +1,42 @@
+{"intents":[
+  {"tag":"greetings",
+  "patterns":["hello","hi","hey","good day","Hello"],
+  "responses":["Hello","Hey","What can I do for you?","How can I help you ?"]
+  },
+  {"tag":"Goodbye",
+  "patterns":["good bye","bye","cya","see you","tata","bye bye"],
+  "responses":["sad to bye ","bye","Your most welcome","Thank you"]
+  },
+  {"tag":"Help",
+  "patterns":["Need your help","Can you please help me","Urgent help is needed","I want your help"],
+  "responses":["Yes sure I will help you","What's your problem?","Don't worry I will help you","Tell me how can I help you?"]
+  },
+  {"tag":"Covid",
+  "patterns":["what is corona?","What is corona disease?","What is coronavirus?","Is coronavirus contagious?","What is a novel coronavirus?","Can coronaviruses be transmitted from person to person?","Is there a vaccine for a novel coronavirus?","What is covid virus","Is covid-19 infectious?"],
+  "responses":["Coronaviruses or covid 19 disease are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).","A novel coronavirus (CoV) is a new strain of coronavirus that has not been previously identified in humans.","COVID-19 is a disease caused by a new strain of coronavirus. 'CO' stands for corona 'VI' for virus and 'D' for disease. Formerly this disease was referred to as '2019 novel coronavirus' or '2019-nCoV'."]
+  },
+  {"tag":"symptoms",
+  "patterns":["What are the general symptoms of Covid 19 ?","Which mild symptoms occur first ?","How to know if I am infected ?","What are the acute symptoms of Covid 19 ?","Will I have breathing problem if I'm infected ?"," What discomforts happen after infection ?","What other symptoms might occur ?","Why should I be at risk ?","What sypmtoms show that a person can be Covid infected ?","What are the less common symptoms ?"],
+  "responses":["Three common clusters of symptoms have been identified one respiratory symptom cluster with  cough sputum  shortness of breath and fever a musculoskeletal symptom \n 1.cluster with muscle \n 2. joint pain headache \n 3. fatigue, a cluster of digestive symptoms with abdominal pain, vomiting and diarrhea.","Most common symptoms are  fever  dry cough tiredness Less common symptoms are \n 1.aches \n 2. pains \n 3.sore throat \n 4.diarrhoea \n 5.conjunctivitis, headache, loss of taste or smell a rash on skin Serious symptoms are \n 1. difficulty breathing or shortness of breath \n 2.chest pain or pressure \n 3.loss of speech and movement.","once a person has connected with coronavirus it can take 2 or 14 days for symptoms to appear.The average incubation period appears to be roughly 5 to 6 days.According to the World Health Organization (WHO) symptopms of corona virus can be mild and come on gradually .According to The Lancet when hospital admission is necessary this typically occurs from 7 days onwards.The Centers for Disease Control and Prevention (CDC)Trusted Source state that a person with COVID-19 can experience a wide range of symptoms often including a dry cough and shortness of breath.","Emergency symptoms Symptoms that should prompt an immediate visit to the emergency room (ER) include \n 1. difficulty breathing \n 2. persistent chest pain or pressure in the chest \n 3. confusion \n 4. difficulty waking up or staying awake \n 5. cyanosis which causes blue lips or a blue face."]
+  },
+  {"tag":"Helpline",
+  "patterns":["From where I can find oxygen?","oxygen cylinder","Need oxygen cylinder"],
+"responses":["1.Barasat Oxygen lead-9830433456. \n 2.Duttapukur Oxygen lead-8478923192 \n 9051359979 \n 9875685224 \n 8981014587 \n 7278746729 \n 907373114.  \n  3.Naihati to Kalyani-8240250270 \n 7003687793. \n  4.Covid Help Desk(For information on Oxygen leads  \n Food delivery leads Government \n  Hospital Bed registration-7477674503 \n 8902731394 \n 906419679. \n  5.Madhyamgram-8777027437 \n 6.Goverment Oxygen control room-7596056444 \n 7596056443. \n  7.khardah(bengal gases-21/19-b.t road Khardah)-9838788578. \n  8.Bharat oxytech pvt ltd 23-b.t road Kamarhati ph-03325632488. \n  9.Team saath(Saltlake(oxygen refill))-9830179101. \n  10.Oxygen Services(Tollygunge Phari-(6lts.&12 lts cans available))-9831919933."]
+  },
+  {"tag":"Treatment",
+  "patterns":["Can any existing treatment cure Covid 19 ?","Is there full treatment for Covid 19?","Treatment","How to treat Covid 19 ?","How long does Covid treatment take place?","Why should I need emergency Covid treatment?","What I will do when I will be affected  from covid 19 or corona virus?"],
+    "responses":["At home Coronavirus Treatment- \n 1.Take rest that can make you feel better and may speed your recovery. \n 2.Stay home Do not go to work school or public places. \n 3.You lose more water when you are sick.Dehydration can make symptoms worse and cause other health problems. \n 4.Monitor If your symptoms get worse call your doctor right away.Do not go to their office without calling first.They might tell you to stay home or they may need to take extra steps to protect staff and other patients. \n 5.Ask your doctor about over the counter medicines that may help like acetaminophen to lower your fever. \n 6.Try to stay in one place in your home Use a separate bedroom and bathroom if you can. \n 7.Tell others you are sick so they keep their distance. \n 8.Cover your coughs and sneezes with a tissue or your elbow."]
+  },
+  {"tag":"what medicine",
+  "patterns":["What medicine should I take ?","Which medicine can treat covid 19 or corona virus?"],
+  "responses":["Two drugs can help manage COVID-19 in some people with severe symptoms who are receiving treatment in the hospital according to the National Institutes of Health. They are: \n Veklury (remdesivir): Veklury (remdesivir) is an antiviral drug that may slow the replication of the virus in the body. According to the FDATrusted Source studies have shown that using Veklury could speed up the recovery time from COVID-19. The median recovery time was 10 days for people taking Veklury compared with 15 days for those in the placebo group. \n Dexamethasone: Corticosteroids such as dexamethasone may help manage symptoms in people with COVID-19 by reducing inflammation. They also may reduce the risk of death in some people with severe symptoms. A doctor may prescribe both steroids and antivirals in some cases. As scientists continue to research the disease and potential treatments more drugs may receive government approval Trusted Source. First however clinical trials must show that they are safe and effective."]
+  },
+  {"tag":"mood",
+  "patterns":["hey my mood is not good","hey can you suggest me something","how can i make myself good ","can you change my mood"],
+  "responses":["yes,why not","you can watch movies ","play  songs "," read good books"]
+  },
+  {"tag":"thanks",
+  "patterns":["thank you"," thanks","thank you so much","thanks for the help"," really helpfull thanks"],
+  "responses":["no need to say","welcome ","it's mah pleasure","welcome dear"]
+  }
+]}
